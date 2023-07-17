@@ -16,7 +16,15 @@
   <a href="#pray-acknowledgement">Acknowledgement</a>
 </div>
 
+<br/>
+
 ## Built with
+
+- [![Typescript][typescript]][typescript-url]
+- [![Vue][vue]][vue-url]
+- [![HTML][html]][html-url]
+- [![CSS][css]][css-url]
+- [![Vitest][vitest]][vitest-url]
 
 [Vue-url]: https://vuejs.org/
 [Vitepress-url]: https://vitepress.dev/
