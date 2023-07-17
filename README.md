@@ -5,8 +5,9 @@
 
 [![VueJS](https://img.shields.io/badge/VueJS-3.0.x-%2341B883)][vue-url]
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/logicspark/awesome-social-button/blob/main/LICENSE)
-<br/>
 
+</div>
+<br/>
 <div align="center">
   <a href="#sunglasses-screenshots">Screenshots</a> - 
   <a href="#building_construction-built-with">Built With</a> - 
@@ -40,5 +41,3 @@
 [Vitest]: https://img.shields.io/badge/vitest-edd532?style=for-the-badge&logo=vitest&logoColor=black
 [vitest-url]: https://vitest.dev/
 [package-url]: https://www.npmjs.com/package/awesome-social-button
-
-</div>
