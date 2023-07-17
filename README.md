@@ -40,6 +40,19 @@ This is created base on Vite + Vue3 + TypeScript so you will need to install thi
 
 #### Other options
 
+## Usage
+
+ในไฟล์ .md สามารถ import theme มาใช้ได้เลย
+
+```javascript
+<script>import {PageDivision} from 'vitepress-api-document-theme'</script>
+
+<PageDivision>
+<template #left></template>
+<template #right></template>
+</PageDivision>
+```
+
 [Vitepress-url]: https://vitepress.dev/
 [TypeScript]: https://img.shields.io/badge/typescript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
 [typescript-url]: https://www.typescriptlang.org/
