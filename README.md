@@ -44,12 +44,22 @@ This is created base on Vite + Vue3 + TypeScript so you will need to install thi
 
 ในไฟล์ .md สามารถ import theme มาใช้ได้เลย
 
+ใส่ tag template เพื่อใส่ข้อมูล ใน ฝั่งซ้าย และ ขวา (left,right)
+
+สามารถใส่ได้ทั้ง html และ markdown
+
 ```javascript
-<script>import {PageDivision} from 'vitepress-api-document-theme'</script>
+<script>
+   import {PageDivision} from 'vitepress-api-document-theme'
+</script>
 
 <PageDivision>
-<template #left></template>
-<template #right></template>
+<template #left>
+
+</template>
+<template #right>
+
+</template>
 </PageDivision>
 ```
 
