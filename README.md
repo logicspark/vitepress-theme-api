@@ -9,25 +9,36 @@
 </div>
 <br/>
 <div align="center">
-  <a href="#sunglasses-screenshots">Screenshots</a> - 
-  <a href="#building_construction-built-with">Built With</a> - 
-  <a href="#rocket-getting-started">Getting Started</a> - 
-  <a href="#fire-usage">Usage</a> -
-  <a href="#books-license">License</a> -
-  <a href="#pray-acknowledgement">Acknowledgement</a>
+<a href="#built-with">Built With</a> -
+<a href="#getting-started">Getting Started</a> -
+<a href="#fire-usage">Usage</a> -
+<a href="#books-license">License</a> -
+<a href="#pray-acknowledgement">Acknowledgement</a>
 </div>
 
 <br/>
 
 ## Built with
 
-- [![Typescript][typescript]][typescript-url]
-- [![Vue][vue]][vue-url]
-- [![HTML][html]][html-url]
-- [![CSS][css]][css-url]
-- [![Vitest][vitest]][vitest-url]
+1. [![Typescript][typescript]][typescript-url]
+2. [![Vue][vue]][vue-url]
+3. [![HTML][html]][html-url]
+4. [![CSS][css]][css-url]
+5. [![Vitest][vitest]][vitest-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)
+
+## Getting Started
+
+Learn what is required before using Vitepress api document theme and how to install it quickly. Let's get started!
+
+### Prerequisite
+
+This is created base on Vite + Vue3 + TypeScript so you will need to install this lib inside Vitepress project.
+
+### Installation
+
+#### Other options
 
 [Vitepress-url]: https://vitepress.dev/
 [TypeScript]: https://img.shields.io/badge/typescript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
