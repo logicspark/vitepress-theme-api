@@ -69,6 +69,8 @@ This is created base on Vite + Vue3 + TypeScript so you will need to install thi
 </PageDivision>
 ```
 
+Note: ควรเว้นวรรค ตามในตัวอย่างเพื่อให้เขียน markdown แล้ว ไม่กลายเป็น text ไป
+
 [Vitepress-url]: https://vitepress.dev/
 [TypeScript]: https://img.shields.io/badge/typescript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
 [typescript-url]: https://www.typescriptlang.org/
