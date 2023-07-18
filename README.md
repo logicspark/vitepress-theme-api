@@ -69,7 +69,13 @@ This is created base on Vite + Vue3 + TypeScript so you will need to install thi
 </PageDivision>
 ```
 
-Note: ควรเว้นวรรค ตามในตัวอย่างเพื่อให้เขียน markdown แล้ว ไม่กลายเป็น text ไป
+_Note_: ควรเว้นวรรค ตามในตัวอย่างเพื่อให้เขียน markdown แล้ว ไม่กลายเป็น text ไป
+
+### Component Attribute
+
+| Prop | Type   | Required | Description                             |
+| ---- | ------ | -------- | --------------------------------------- |
+| top  | number | Optional | เซต position แนวตั้ง ของ elementฝั่งขวา |
 
 [Vitepress-url]: https://vitepress.dev/
 [TypeScript]: https://img.shields.io/badge/typescript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
