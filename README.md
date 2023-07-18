@@ -54,10 +54,16 @@ This is created base on Vite + Vue3 + TypeScript so you will need to install thi
 </script>
 
 <PageDivision>
+
 <template #left>
 
+  // สามารถใส่ได้ทั้ง html และ markdown
+
 </template>
+
 <template #right>
+
+ // สามารถใส่ได้ทั้ง html และ markdown
 
 </template>
 </PageDivision>
