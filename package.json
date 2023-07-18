@@ -1,17 +1,17 @@
 {
   "name": "vitepress-api-document-theme",
   "private": false,
-  "version": "0.0.0-rc.00",
+  "version": "0.0.0-rc.01",
   "license": "MIT",
   "author": "LogicSpark <info@logicspark.com>",
   "homepage": "https://logicspark.com",
-  "url": "",
+  "url": "https://github.com/logicspark/vitepress-api-document-theme",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/logicspark/vitepress-api-document-theme.git"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/logicspark/vitepress-api-document-theme/issues"
   },
   "keywords": [
     "vitepress-api-document-theme",
