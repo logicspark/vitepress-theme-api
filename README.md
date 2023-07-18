@@ -73,9 +73,9 @@ _Note_: ควรเว้นวรรค ตามในตัวอย่า�
 
 ### Component Attribute
 
-| Prop  | Type     | Required | Description                                               |
-| ----- | -------- | -------- | --------------------------------------------------------- |
-| `top` | `number` | Optional | เซต position แนวตั้ง ของ elementฝั่งขวา ค่าเริ่มต้นเป็น 0 |
+| Prop      | Type     | Required | Description                                                 |
+| --------- | -------- | -------- | ----------------------------------------------------------- |
+| **`top`** | `number` | Optional | เซต position แนวตั้ง ของ elementฝั่งขวา ค่าเริ่มต้นเป็น `0` |
 
 [Vitepress-url]: https://vitepress.dev/
 [TypeScript]: https://img.shields.io/badge/typescript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
