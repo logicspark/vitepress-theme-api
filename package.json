@@ -1,5 +1,5 @@
 {
-  "name": "my-vue-app",
+  "name": "vitepress-api-document-theme",
   "private": false,
   "version": "0.0.0-rc.00",
   "license": "MIT",
@@ -14,19 +14,21 @@
     "url": ""
   },
   "keywords": [
-    "vitepress page division component",
+    "vitepress-api-document-theme",
+    "page",
+    "vitepress divided page",
     "vitepress"
   ],
   "type": "module",
   "files": [
     "dist"
   ],
-  "main": "./dist/vitepress-page-division-component.umd.js",
-  "module": "./dist/vitepress-page-division-component.es.js",
+  "main": "./dist/vitepress-api-document-theme.umd.js",
+  "module": "./dist/vitepress-api-document-theme.es.js",
   "exports": {
     ".": {
-      "import": "./dist/vitepress-page-division-component.umd.js",
-      "require": "./dist/vitepress-page-division-component.umd.js"
+      "import": "./dist/vitepress-api-document-theme.umd.js",
+      "require": "./dist/vitepress-api-document-theme.umd.js"
     },
     "./dist/index.css": "./dist/index.css"
   },
