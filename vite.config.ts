@@ -15,8 +15,8 @@ export default defineConfig({
     target: "esnext",
     lib: {
       entry: resolve(__dirname, "./src/components/index.ts"),
-      name: "VitePressPageDivisionComponent",
-      fileName: (format) => `vitepress-page-division-component.${format}.js`,
+      name: "VitePressApiDocumentTheme",
+      fileName: (format) => `vitepress-api-document-theme.${format}.js`,
     },
     // cssCodeSplit: true,
     rollupOptions: {

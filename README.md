@@ -28,7 +28,7 @@ Here is the link to the live [demo](). Have fun exploring!
 2. [![Vue][vue]][vue-url]
 3. [![HTML][html]][html-url]
 4. [![CSS][css]][css-url]
-5. [![Vitest][vitest]][vitest-url]
+5. [![Vite][vite]][vite-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)
 
@@ -52,18 +52,36 @@ _Support Node.js 14.21.0 and above_
 
 ### Installation
 
+There are a few ways you can install Awesome Social Button, namely npm, yarn and pnpm. If you install via npm, here is a a single cmd to install this libarary
+
+```sh
+  npm install vitepress-api-document-theme
+```
+
 #### Other options
+
+- yarn
+
+```sh
+  yarn add vitepress-api-document-theme
+```
+
+- pnpm
+
+```sh
+  pnpm add vitepress-api-document-theme
+```
 
 ## Usage
 
-ในไฟล์ .md สามารถ import theme มาใช้ได้เลย
+1. ในไฟล์ .md สามารถ import theme มาใช้ได้เลย
 
 ใส่ tag template เพื่อใส่ข้อมูล ใน ฝั่งซ้าย และ ขวา (left,right)
 
 สามารถใส่ได้ทั้ง html และ markdown
 
 ```javascript
-<script>
+<script setup>
    import {PageDivision} from 'vitepress-api-document-theme'
 </script>
 
@@ -84,6 +102,24 @@ _Support Node.js 14.21.0 and above_
 ```
 
 _Note_: ควรเว้นวรรค ตามในตัวอย่างเพื่อให้เขียน markdown แล้ว ไม่กลายเป็น text ไป
+
+2. import style ของ lib ในไฟล์ css ของ Vitepress project ด้วย
+
+- กรณีที่เลือก แบบ Custom และ ผสม Custom ให้ import style ที่ css ที่เป็น theme ของ project
+
+```css
+@import "../../node_module/vitepress-api-document-theme/dist/style.css";
+```
+
+- กรณีที่เลือกใช้ default theme ของ vitepress ให้ import style ใน tag style ในไฟล์ .md ทุกอันที่ import component ไปใช้
+
+```md
+<style>
+  @import './node_module/vitepress-api-document-theme/dist/style.css'
+</style>
+```
+
+_Note_: ถ้าใส่ scoped ใน tag style style ที่ import มาจะไม่ติด
 
 ### Component Attribute
 
@@ -113,6 +149,6 @@ Vitepress is licenses under MIT License. Click [here](https://github.com/vuejs/v
 [css-url]: https://www.w3schools.com/css/
 [Vue]: https://img.shields.io/badge/vue.js-42B883?style=for-the-badge&logo=vuedotjs&logoColor=white
 [Vue-url]: https://vuejs.org/
-[Vitest]: https://img.shields.io/badge/vitest-edd532?style=for-the-badge&logo=vitest&logoColor=black
-[vitest-url]: https://vitest.dev/
+[Vite]: https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white
+[vite-url]: https://vitejs.dev/
 [package-url]: https://www.npmjs.com/package/awesome-social-button
