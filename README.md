@@ -74,11 +74,14 @@ There are a few ways you can install Awesome Social Button, namely npm, yarn and
 
 ## Usage
 
-1. ในไฟล์ .md สามารถ import theme มาใช้ได้เลย
+You can simply import the theme to the .md file to start using. You can also customize the theme further with an external css file.
 
-ใส่ tag template เพื่อใส่ข้อมูล ใน ฝั่งซ้าย และ ขวา (left,right)
+### Using basic theme
 
-สามารถใส่ได้ทั้ง html และ markdown
+There are basically two tags
+
+- Tag `<template #left>` - For the left side of the main content, you can write api descriptions like query parameters or return properties.
+- Tag `<template #right>` - For the right side of the main content, you can add sample codes like api request and response.
 
 ```javascript
 <script setup>
@@ -89,19 +92,21 @@ There are a few ways you can install Awesome Social Button, namely npm, yarn and
 
 <template #left>
 
-  // สามารถใส่ได้ทั้ง html และ markdown
+  // Add content here. Both html and markdown are supported.
 
 </template>
 
 <template #right>
 
- // สามารถใส่ได้ทั้ง html และ markdown
+ // Add content here. Both html and markdown are supported.
 
 </template>
 </PageDivision>
 ```
 
-_Note_: ควรเว้นวรรค ตามในตัวอย่างเพื่อให้เขียน markdown แล้ว ไม่กลายเป็น text ไป
+_Note_: When writing markdown, please leave a line so that it displays a markdown instead of text like the example above.
+
+### Using theme with additional css styling
 
 2. import style ของ lib ในไฟล์ css ของ Vitepress project ด้วย
 
