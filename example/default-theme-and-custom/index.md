@@ -6,7 +6,7 @@ aside: false
   import {PageDivision} from 'vitepress-api-document-theme'
 </script>
 
-<PageDivision>
+<PageDivision :top="63">
 <template #left>
 
 This page demonstrates usage of some of the runtime APIs provided by VitePress.

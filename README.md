@@ -78,9 +78,9 @@ You can simply import the theme to the .md file to start using.
 
 และจะต้อง import css ของ theme ด้วย สามารถแบ่งได้ เป็น 3 กรณี ตามที่เลือกใช้ theme ตอนที่สร้าง Vitepress project
 
-### การ Import Css ของ lib ไปที่ css file
+### ขั้นตอนการ Import Css ของ lib ไปที่ css file
 
-- For default theme by Vitepress: Import style ใน tag style ในไฟล์ .md ทุกอันที่ import component ไปใช้
+- For **default theme** by Vitepress: Import style ใน tag style ในไฟล์ .md ทุกอันที่ import component ไปใช้
 
 ```md
 <style>
@@ -88,15 +88,23 @@ You can simply import the theme to the .md file to start using.
 </style>
 ```
 
-[example](https://github.com/logicspark/vitepress-api-document-theme/blob/main/example/default-theme/index.md?plain=1) การ Import css ของ lib
+[example](https://github.com/logicspark/vitepress-api-document-theme/blob/main/example/default-theme/index.md?plain=1)
 
 _Note_: อย่าใส่ scoped ใน tag style เพราะจะทำให้ css ของ theme ไม่แสดงผล
 
-- For default theme + custom :
+- For **default theme + customization** by Vitepress: Import style ใน ไฟล์ theme ใน folder .vitepress เพื่อให้ style ของ lib แสดงผล
 
 ```css
 @import "../../node_module/vitepress-api-document-theme/dist/style.css";
 ```
+
+[example](https://github.com/logicspark/vitepress-api-document-theme/blob/main/example/default-theme-and-custom/.vitepress/theme/style.css)
+
+- For **custom theme** : ทำเหมือนกันกับ กรณี default theme + customization
+
+[example](https://github.com/logicspark/vitepress-api-document-theme/blob/main/example/custom-theme/.vitepress/theme/style.css)
+
+### ขั้นตอนการ Import lib เพื่อใช้
 
 There are basically two tags
 
