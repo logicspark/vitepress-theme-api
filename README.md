@@ -74,45 +74,51 @@ There are a few ways you can install Vitepress API Document theme, namely npm, y
 
 ## Usage
 
-You can simply import the theme to the .md file to start using.
+You will need to import css for the theme to display correctly. Per Vitepress's [Setup Wizard](https://vitepress.dev/guide/getting-started#setup-wizard), there are three options
 
-และจะต้อง import css ของ theme ด้วย สามารถแบ่งได้ เป็น 3 กรณี ตามที่เลือกใช้ theme ตอนที่สร้าง Vitepress project
+1. Default Theme
+2. Default Theme + Customization
+3. Custom Theme
 
-### ขั้นตอนการ Import Css ของ lib ไปที่ css file
+### Option 1: Default Theme
 
-- For **default theme** by Vitepress: Import style ใน tag style ในไฟล์ .md ทุกอันที่ import component ไปใช้
+You can import the file within `<style>` of each .md file that you plan to use the imported component.
 
-```md
+```js
 <style>
   @import './node_module/vitepress-api-document-theme/dist/style.css'
 </style>
 ```
 
+_Note_: Do not add `scoped` in `<style>` because the css will not work.
+
 <div align="right">
 
-[example](https://github.com/logicspark/vitepress-api-document-theme/blob/main/example/default-theme/index.md?plain=1)
+> > [example](https://github.com/logicspark/vitepress-api-document-theme/blob/main/example/default-theme/index.md?plain=1)
 
 </div>
 
-_Note_: อย่าใส่ scoped ใน tag style เพราะจะทำให้ css ของ theme ไม่แสดงผล
+### Option2: Default Theme + Customization
 
-- For **default theme + customization** by Vitepress: Import style ใน ไฟล์ theme ใน folder .vitepress เพื่อให้ style ของ lib แสดงผล
+You must import style in the css file in the theme directory.
 
 ```css
-@import "../../node_module/vitepress-api-document-theme/dist/style.css";
+@import "../../node_module/vitepress-api-document-theme/theme/style.css";
 ```
 
 <div align="right">
 
-[example](https://github.com/logicspark/vitepress-api-document-theme/blob/main/example/default-theme-and-custom/.vitepress/theme/style.css)
+> > [example](https://github.com/logicspark/vitepress-api-document-theme/blob/main/example/default-theme-and-custom/.vitepress/theme/style.css)
 
 </div>
 
-- For **custom theme** : ทำเหมือนกันกับ กรณี default theme + customization
+### Option 3: Custom Theme
+
+Please follow Option 2's instruction
 
 <div align="right">
 
-[example](https://github.com/logicspark/vitepress-api-document-theme/blob/main/example/custom-theme/.vitepress/theme/style.css)
+> > [example](https://github.com/logicspark/vitepress-api-document-theme/blob/main/example/custom-theme/.vitepress/theme/style.css)
 
 </div>
 
