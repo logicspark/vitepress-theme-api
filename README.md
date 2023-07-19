@@ -34,11 +34,11 @@ Here is the link to the live [demo](). Have fun exploring!
 
 ## Getting Started
 
-Learn what is required before using Vitepress api document theme and how to install it quickly. Let's get started!
+Learn what is required before using Vitepress API Document theme and how to install it quickly. Let's get started!
 
 ### Prerequisite
 
-This is created base on Vite + Vue3 + TypeScript so you will need to install this lib inside Vitepress project.
+This is created based on Vite + Vue3 + TypeScript so you will need to install this library inside the Vitepress project.
 
 Before installing the theme, please install the most recent `Node.js` version
 
@@ -52,7 +52,7 @@ _Support Node.js 14.21.0 and above_
 
 ### Installation
 
-There are a few ways you can install Awesome Social Button, namely npm, yarn and pnpm. If you install via npm, here is a a single cmd to install this libarary
+There are a few ways you can install Vitepress API Document theme, namely npm, yarn and pnpm. If you install via npm, here is a a single cmd to install this library
 
 ```sh
   npm install vitepress-api-document-theme
@@ -106,17 +106,17 @@ There are basically two tags
 
 _Note_: When writing markdown, please leave a line so that it displays a markdown instead of text like the example above.
 
-### Using theme with additional css styling
+### Using theme with additional css style
 
-2. import style ของ lib ในไฟล์ css ของ Vitepress project ด้วย
+Import style ของ lib ในไฟล์ css ของ Vitepress project ด้วย
 
-- กรณีที่เลือก แบบ Custom และ ผสม Custom ให้ import style ที่ css ที่เป็น theme ของ project
+- For custom theme: Import css style file from the theme folder
 
 ```css
 @import "../../node_module/vitepress-api-document-theme/dist/style.css";
 ```
 
-- กรณีที่เลือกใช้ default theme ของ vitepress ให้ import style ใน tag style ในไฟล์ .md ทุกอันที่ import component ไปใช้
+- For default theme by Vitepress: Import style ใน tag style ในไฟล์ .md ทุกอันที่ import component ไปใช้
 
 ```md
 <style>
@@ -130,7 +130,7 @@ _Note_: ถ้าใส่ scoped ใน tag style style ที่ import มา
 
 | Prop      | Type     | Required | Description                                                 |
 | --------- | -------- | -------- | ----------------------------------------------------------- |
-| **`top`** | `number` | Optional | เซต position แนวตั้ง ของ elementฝั่งขวา ค่าเริ่มต้นเป็น `0` |
+| **`top`** | `number` | Optional | Set vertical position of `<template #right>` Default is `0` |
 
 For more details, please see our [example]() folder. It's a sample file that you can readily replace in your Vitepress project.
 
