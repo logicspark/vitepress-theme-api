@@ -24,7 +24,7 @@
 2. [![Vue][vue]][vue-url]
 3. [![HTML][html]][html-url]
 4. [![CSS][css]][css-url]
-5. [![Vitest][vitest]][vitest-url]
+5. [![Vite][vite]][vite-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)
 
@@ -86,6 +86,6 @@ _Note_: ควรเว้นวรรค ตามในตัวอย่า�
 [css-url]: https://www.w3schools.com/css/
 [Vue]: https://img.shields.io/badge/vue.js-42B883?style=for-the-badge&logo=vuedotjs&logoColor=white
 [Vue-url]: https://vuejs.org/
-[Vitest]: https://img.shields.io/badge/vitest-edd532?style=for-the-badge&logo=vitest&logoColor=black
-[vitest-url]: https://vitest.dev/
+[Vite]: https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white
+[vite-url]: https://vitejs.dev/
 [package-url]: https://www.npmjs.com/package/awesome-social-button
