@@ -38,7 +38,25 @@ This is created base on Vite + Vue3 + TypeScript so you will need to install thi
 
 ### Installation
 
+There are a few ways you can install Awesome Social Button, namely npm, yarn and pnpm. If you install via npm, here is a a single cmd to install this libarary
+
+```sh
+  npm install vitepress-api-document-theme
+```
+
 #### Other options
+
+- yarn
+
+```sh
+  yarn add vitepress-api-document-theme
+```
+
+- pnpm
+
+```sh
+  pnpm add vitepress-api-document-theme
+```
 
 ## Usage
 
@@ -87,7 +105,7 @@ _Note_: ควรเว้นวรรค ตามในตัวอย่า�
 </style>
 ```
 
-_Note_: ถ้าใส่ scoped style ที่ import มาจะไม่ติด
+_Note_: ถ้าใส่ scoped ใน tag style style ที่ import มาจะไม่ติด
 
 ### Component Attribute
 
