@@ -88,7 +88,11 @@ You can simply import the theme to the .md file to start using.
 </style>
 ```
 
+<div align="right">
+
 [example](https://github.com/logicspark/vitepress-api-document-theme/blob/main/example/default-theme/index.md?plain=1)
+
+</div>
 
 _Note_: อย่าใส่ scoped ใน tag style เพราะจะทำให้ css ของ theme ไม่แสดงผล
 
@@ -98,11 +102,19 @@ _Note_: อย่าใส่ scoped ใน tag style เพราะจะท�
 @import "../../node_module/vitepress-api-document-theme/dist/style.css";
 ```
 
+<div align="right">
+
 [example](https://github.com/logicspark/vitepress-api-document-theme/blob/main/example/default-theme-and-custom/.vitepress/theme/style.css)
+
+</div>
 
 - For **custom theme** : ทำเหมือนกันกับ กรณี default theme + customization
 
+<div align="right">
+
 [example](https://github.com/logicspark/vitepress-api-document-theme/blob/main/example/custom-theme/.vitepress/theme/style.css)
+
+</div>
 
 ### ขั้นตอนการ Import lib เพื่อใช้
 
