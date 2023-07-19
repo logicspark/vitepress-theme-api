@@ -92,7 +92,7 @@ There are basically two tags
 
 <template #left>
 
-  // Add content here. Both html and markdown are supported.
+ // Add content here. Both html and markdown are supported.
 
 </template>
 
