@@ -49,7 +49,7 @@ This is created base on Vite + Vue3 + TypeScript so you will need to install thi
 สามารถใส่ได้ทั้ง html และ markdown
 
 ```javascript
-<script>
+<script setup>
    import {PageDivision} from 'vitepress-api-document-theme'
 </script>
 
@@ -73,11 +73,21 @@ _Note_: ควรเว้นวรรค ตามในตัวอย่า�
 
 2. import style ของ lib ในไฟล์ css ของ Vitepress project ด้วย
 
-กรณีที่เลือก แบบ Custom และ ผสม Custom ให้ import style ที่ css ที่เป็น theme ของ project
+- กรณีที่เลือก แบบ Custom และ ผสม Custom ให้ import style ที่ css ที่เป็น theme ของ project
 
 ```css
 @import "../../node_module/vitepress-api-document-theme/dist/style.css";
 ```
+
+- กรณีที่เลือกใช้ default theme ของ vitepress ให้ import style ใน tag style ในไฟล์ .md ทุกอันที่ import component ไปใช้
+
+```md
+<style>
+  @import './node_module/vitepress-api-document-theme/dist/style.css'
+</style>
+```
+
+_Note_: ถ้าใส่ scoped style ที่ import มาจะไม่ติด
 
 ### Component Attribute
 
