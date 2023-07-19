@@ -80,8 +80,8 @@ You can simply import the theme to the .md file to start using. You can also cus
 
 There are basically two tags
 
-- Tag `<template #left>` - For the left side of the main content, you can write api descriptions like query parameters or return properties.
-- Tag `<template #right>` - For the right side of the main content, you can add sample codes like api request and response.
+- `<template #left>` - For the left side of the main content, you can write api descriptions like query parameters or return properties.
+- `<template #right>` - For the right side of the main content, you can add sample codes like api request and response.
 
 ```javascript
 <script setup>
