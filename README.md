@@ -42,7 +42,7 @@ This is created base on Vite + Vue3 + TypeScript so you will need to install thi
 
 ## Usage
 
-ในไฟล์ .md สามารถ import theme มาใช้ได้เลย
+1. ในไฟล์ .md สามารถ import theme มาใช้ได้เลย
 
 ใส่ tag template เพื่อใส่ข้อมูล ใน ฝั่งซ้าย และ ขวา (left,right)
 
@@ -70,6 +70,14 @@ This is created base on Vite + Vue3 + TypeScript so you will need to install thi
 ```
 
 _Note_: ควรเว้นวรรค ตามในตัวอย่างเพื่อให้เขียน markdown แล้ว ไม่กลายเป็น text ไป
+
+2. import style ของ lib ในไฟล์ css ของ Vitepress project ด้วย
+
+กรณีที่เลือก แบบ Custom และ ผสม Custom ให้ import style ที่ css ที่เป็น theme ของ project
+
+```css
+@import "../../node_module/vitepress-api-document-theme/dist/style.css";
+```
 
 ### Component Attribute
 
