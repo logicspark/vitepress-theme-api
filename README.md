@@ -9,6 +9,7 @@
 </div>
 <br/>
 <div align="center">
+<a href="#sunglasses-with">Screenshots</a> -
 <a href="#built-with">Built With</a> -
 <a href="#getting-started">Getting Started</a> -
 <a href="#fire-usage">Usage</a> -
@@ -38,17 +39,12 @@ Learn what is required before using Vitepress API Document theme and how to inst
 
 ### Prerequisite
 
-This is created based on Vite + Vue3 + TypeScript so you will need to install this library inside the Vitepress project.
+This library is created with Vite + Vue3 + TypeScript. To start using this library, please make sure to install the following external libraries first:
 
-Before installing the theme, please install the most recent `Node.js` version
+- [Node.js](https://nodejs.org/en)
+- [Vitepress](https://vitepress.dev/)
 
-- npm
-
-```sh
-  npm install npm@latest -g
-```
-
-_Support Node.js 14.21.0 and above_
+_Support Node.js 18.12.0 (LTS) and above_
 
 ### Installation
 
@@ -74,13 +70,25 @@ There are a few ways you can install Vitepress API Document theme, namely npm, y
 
 ## Usage
 
-You will need to import css for the theme to display correctly. Per Vitepress's [Setup Wizard](https://vitepress.dev/guide/getting-started#setup-wizard), there are three options
+You will need to import component tags and css. Without the css import, the API Document theme will not display correctly.
+
+### Import Component from Theme
+
+You will need to import `PageDivision` component to divide the main content into left and right so that API document theme can be rendered.
+
+```js
+<script setup>import {PageDivision} from 'vitepress-api-document-theme'</script>
+```
+
+### Import CSS from Theme
+
+Per Vitepress's [Setup Wizard](https://vitepress.dev/guide/getting-started#setup-wizard), there are three options
 
 1. Default Theme
 2. Default Theme + Customization
 3. Custom Theme
 
-### Option 1: Default Theme
+#### Option 1: Default Theme
 
 You can import the file within `<style>` of each .md file that you plan to use the imported component.
 
@@ -94,11 +102,11 @@ _Note_: Do not add `scoped` in `<style>` because the css will not work.
 
 <div align="right">
 
-> > [example](https://github.com/logicspark/vitepress-api-document-theme/blob/main/example/default-theme/index.md?plain=1)
+[See example](https://github.com/logicspark/vitepress-api-document-theme/blob/main/example/default-theme/index.md?plain=1)
 
 </div>
 
-### Option2: Default Theme + Customization
+#### Option2: Default Theme + Customization
 
 You must import style in the css file in the theme directory.
 
@@ -108,32 +116,28 @@ You must import style in the css file in the theme directory.
 
 <div align="right">
 
-> > [example](https://github.com/logicspark/vitepress-api-document-theme/blob/main/example/default-theme-and-custom/.vitepress/theme/style.css)
+[See example](https://github.com/logicspark/vitepress-api-document-theme/blob/main/example/default-theme-and-custom/.vitepress/theme/style.css)
 
 </div>
 
-### Option 3: Custom Theme
+#### Option 3: Custom Theme
 
 Please follow Option 2's instruction
 
 <div align="right">
 
-> > [example](https://github.com/logicspark/vitepress-api-document-theme/blob/main/example/custom-theme/.vitepress/theme/style.css)
+[See example](https://github.com/logicspark/vitepress-api-document-theme/blob/main/example/custom-theme/.vitepress/theme/style.css)
 
 </div>
 
-### ขั้นตอนการ Import lib เพื่อใช้
+### Implementation of Tags
 
-There are basically two tags
+There are two tags, namely:
 
 - `<template #left>` - For the left side of the main content, you can write api descriptions like query parameters or return properties.
 - `<template #right>` - For the right side of the main content, you can add sample codes like api request and response.
 
-```javascript
-<script setup>
-   import {PageDivision} from 'vitepress-api-document-theme'
-</script>
-
+```js
 <PageDivision>
 
 <template #left>
@@ -158,7 +162,7 @@ _Note_: When writing markdown, please leave a line so that it displays a markdow
 | --------- | -------- | -------- | ----------------------------------------------------------- |
 | **`top`** | `number` | Optional | Set vertical position of `<template #right>` Default is `0` |
 
-For more details, please see our [example]() folder. It's a sample file that you can readily replace in your Vitepress project.
+For the full sample .md file in accordance to the live demo, please see our [example]() directory.
 
 ## :books: License
 
