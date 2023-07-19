@@ -18,6 +18,10 @@
 
 <br/>
 
+## :sunglasses: Screenshots
+
+Here is the link to the live [demo](). Have fun exploring!
+
 ## Built with
 
 1. [![Typescript][typescript]][typescript-url]
@@ -35,6 +39,16 @@ Learn what is required before using Vitepress api document theme and how to inst
 ### Prerequisite
 
 This is created base on Vite + Vue3 + TypeScript so you will need to install this lib inside Vitepress project.
+
+Before installing the theme, please install the most recent `Node.js` version
+
+- npm
+
+```sh
+  npm install npm@latest -g
+```
+
+_Support Node.js 14.21.0 and above_
 
 ### Installation
 
@@ -76,6 +90,8 @@ _Note_: ควรเว้นวรรค ตามในตัวอย่า�
 | Prop      | Type     | Required | Description                                                 |
 | --------- | -------- | -------- | ----------------------------------------------------------- |
 | **`top`** | `number` | Optional | เซต position แนวตั้ง ของ elementฝั่งขวา ค่าเริ่มต้นเป็น `0` |
+
+For more details, please see our [example]() folder. It's a sample file that you can readily replace in your Vitepress project.
 
 ## :books: License
 
