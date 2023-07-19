@@ -74,9 +74,29 @@ There are a few ways you can install Vitepress API Document theme, namely npm, y
 
 ## Usage
 
-You can simply import the theme to the .md file to start using. You can also customize the theme further with an external css file.
+You can simply import the theme to the .md file to start using.
 
-### Using basic theme
+และจะต้อง import css ของ theme ด้วย สามารถแบ่งได้ เป็น 3 กรณี ตามที่เลือกใช้ theme ตอนที่สร้าง Vitepress project
+
+### การ Import Css ของ lib ไปที่ css file
+
+- For default theme by Vitepress: Import style ใน tag style ในไฟล์ .md ทุกอันที่ import component ไปใช้
+
+```md
+<style>
+  @import './node_module/vitepress-api-document-theme/dist/style.css'
+</style>
+```
+
+[example](https://github.com/logicspark/vitepress-api-document-theme/blob/main/example/default-theme/index.md?plain=1) การ Import css ของ lib
+
+_Note_: อย่าใส่ scoped ใน tag style เพราะจะทำให้ css ของ theme ไม่แสดงผล
+
+- For default theme + custom :
+
+```css
+@import "../../node_module/vitepress-api-document-theme/dist/style.css";
+```
 
 There are basically two tags
 
@@ -105,26 +125,6 @@ There are basically two tags
 ```
 
 _Note_: When writing markdown, please leave a line so that it displays a markdown instead of text like the example above.
-
-### Using theme with additional css style
-
-Import style ของ lib ในไฟล์ css ของ Vitepress project ด้วย
-
-- For custom theme: Import css style file from the theme folder
-
-```css
-@import "../../node_module/vitepress-api-document-theme/dist/style.css";
-```
-
-- For default theme by Vitepress: Import style ใน tag style ในไฟล์ .md ทุกอันที่ import component ไปใช้
-
-```md
-<style>
-  @import './node_module/vitepress-api-document-theme/dist/style.css'
-</style>
-```
-
-_Note_: ถ้าใส่ scoped ใน tag style style ที่ import มาจะไม่ติด
 
 ### Component Attribute
 
