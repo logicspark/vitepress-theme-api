@@ -1,0 +1,5 @@
+@import "../../node_modules/vitepress-api-document-theme/dist/style.css";
+
+html {
+  font-family: Arial, Helvetica;
+}

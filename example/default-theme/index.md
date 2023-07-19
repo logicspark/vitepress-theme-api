@@ -1,10 +1,10 @@
----
-aside: false
----
-
 <script setup>
   import {PageDivision} from 'vitepress-api-document-theme'
 </script>
+
+<style >
+@import './node_modules/vitepress-api-document-theme/dist/style.css'
+</style>
 
 <PageDivision>
 <template #left>
