@@ -77,6 +77,17 @@ _Note_: ควรเว้นวรรค ตามในตัวอย่า�
 | --------- | -------- | -------- | ----------------------------------------------------------- |
 | **`top`** | `number` | Optional | เซต position แนวตั้ง ของ elementฝั่งขวา ค่าเริ่มต้นเป็น `0` |
 
+## :books: License
+
+Distributed under the MIT License. See [`LICENSE`](https://github.com/logicspark/vitepress-api-document-theme/blob/main/LICENSE) for more information.
+
+Vitepress is licenses under MIT License. Click [here](https://github.com/vuejs/vitepress/blob/main/LICENSE) for more information.
+
+## :pray: Acknowledgement
+
+- [Vitepress](https://vitepress.dev/)
+- [Img Shields](https://shields.io)
+
 [Vitepress-url]: https://vitepress.dev/
 [TypeScript]: https://img.shields.io/badge/typescript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
 [typescript-url]: https://www.typescriptlang.org/
