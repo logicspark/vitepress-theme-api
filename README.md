@@ -9,12 +9,12 @@
 </div>
 <br/>
 <div align="center">
-<a href="#sunglasses-with">Screenshots</a> -
-<a href="#built-with">Built With</a> -
-<a href="#getting-started">Getting Started</a> -
-<a href="#fire-usage">Usage</a> -
-<a href="#books-license">License</a> -
-<a href="#pray-acknowledgement">Acknowledgement</a>
+  <a href="#sunglasses-screenshots">Screenshots</a> - 
+  <a href="#building_construction-built-with">Built With</a> - 
+  <a href="#rocket-getting-started">Getting Started</a> - 
+  <a href="#fire-usage">Usage</a> -
+  <a href="#books-license">License</a> -
+  <a href="#pray-acknowledgement">Acknowledgement</a>
 </div>
 
 <br/>
@@ -23,7 +23,7 @@
 
 Here is the link to the live [demo](). Have fun exploring!
 
-## Built with
+## :building_construction: Built With
 
 1. [![Typescript][typescript]][typescript-url]
 2. [![Vue][vue]][vue-url]
@@ -31,7 +31,7 @@ Here is the link to the live [demo](). Have fun exploring!
 4. [![CSS][css]][css-url]
 5. [![Vite][vite]][vite-url]
 
-## Getting Started
+## :rocket: Getting Started
 
 Learn what is required before using Vitepress API Document theme and how to install it quickly. Let's get started!
 
@@ -66,7 +66,7 @@ There are a few ways you can install Vitepress API Document theme, namely npm, y
   pnpm add vitepress-api-document-theme
 ```
 
-## Usage
+## :fire: Usage
 
 You will need to import component tags and css. Without the css import, the API Document theme will not display correctly.
 
