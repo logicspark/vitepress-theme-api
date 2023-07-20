@@ -162,7 +162,7 @@ _Note_: When writing markdown, please leave a line so that it displays a markdow
 | --------- | -------- | -------- | ----------------------------------------------------------- |
 | **`top`** | `number` | Optional | Set vertical position of `<template #right>` Default is `0` |
 
-For the full sample .md file in accordance to the live demo, please see our [example]() directory.
+For the full sample .md file in accordance to the live demo, please see our [example](https://github.com/logicspark/vitepress-api-document-theme/tree/main/example/default-theme-and-custom) directory.
 
 ## :books: License
 
