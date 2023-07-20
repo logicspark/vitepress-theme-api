@@ -31,8 +31,6 @@ Here is the link to the live [demo](). Have fun exploring!
 4. [![CSS][css]][css-url]
 5. [![Vite][vite]][vite-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)
-
 ## Getting Started
 
 Learn what is required before using Vitepress API Document theme and how to install it quickly. Let's get started!
@@ -79,6 +77,8 @@ You will need to import `PageDivision` component to divide the main content into
 ```js
 <script setup>import {PageDivision} from 'vitepress-api-document-theme'</script>
 ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)
 
 ### Import CSS from Theme
 
@@ -156,6 +156,8 @@ There are two tags, namely:
 
 _Note_: When writing markdown, please leave a line so that it displays a markdown instead of text like the example above.
 
+<p align="right">(<a href="#readme-top">back to top</a>)
+
 ### Component Attribute
 
 | Prop      | Type     | Required | Description                                                 |
@@ -164,11 +166,15 @@ _Note_: When writing markdown, please leave a line so that it displays a markdow
 
 For the full sample .md file in accordance to the live demo, please see our [example](https://github.com/logicspark/vitepress-api-document-theme/tree/main/example/default-theme-and-custom) directory.
 
+<p align="right">(<a href="#readme-top">back to top</a>)
+
 ## :books: License
 
 Distributed under the MIT License. See [`LICENSE`](https://github.com/logicspark/vitepress-api-document-theme/blob/main/LICENSE) for more information.
 
 Vitepress is licenses under MIT License. Click [here](https://github.com/vuejs/vitepress/blob/main/LICENSE) for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)
 
 ## :pray: Acknowledgement
 
@@ -187,3 +193,5 @@ Vitepress is licenses under MIT License. Click [here](https://github.com/vuejs/v
 [Vite]: https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white
 [vite-url]: https://vitejs.dev/
 [package-url]: https://www.npmjs.com/package/awesome-social-button
+
+<p align="right">(<a href="#readme-top">back to top</a>)
