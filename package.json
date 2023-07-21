@@ -1,60 +1,60 @@
 {
-	"name": "vitepress-api-document-theme",
-	"private": false,
-	"description": "",
-	"version": "0.0.2-rc.3",
-	"license": "MIT",
-	"author": "LogicSpark <info@logicspark.com>",
-	"homepage": "https://logicspark.com",
-	"url": "https://github.com/logicspark/vitepress-api-document-theme",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/logicspark/vitepress-api-document-theme.git"
-	},
-	"bugs": {
-		"url": "https://github.com/logicspark/vitepress-api-document-theme/issues"
-	},
-	"keywords": [
-		"vitepress-api-document-theme",
-		"page",
-		"vitepress divided page",
-		"vitepress"
-	],
-	"type": "module",
-	"types": "./dist/types/index.d.ts",
-	"files": [
-		"dist"
-	],
-	"main": "./dist/vitepress-api-document-theme.umd.js",
-	"module": "./dist/vitepress-api-document-theme.es.js",
-	"exports": {
-		".": {
-			"import": "./dist/vitepress-api-document-theme.umd.js",
-			"require": "./dist/vitepress-api-document-theme.umd.js"
-		},
-		"./dist/index.css": "./dist/index.css"
-	},
-	"scripts": {
-		"dev": "vite",
-		"build": "vite build && vue-tsc --emitDeclarationOnly && mv dist/components dist/types",
-		"preview": "vite preview",
-		"test": "vitest",
-		"coverage": "vitest run --coverage"
-	},
-	"dependencies": {
-		"vue": "^3.3.4"
-	},
-	"devDependencies": {
-		"@types/node": "^20.4.1",
-		"@vitejs/plugin-vue": "^4.2.3",
-		"@vue/test-utils": "^2.4.0",
-		"jsdom": "^22.1.0",
-		"typescript": "^5.0.2",
-		"vite": "^4.4.3",
-		"vitest": "^0.33.0",
-		"vue-tsc": "^1.8.3"
-	},
-	"engines": {
-		"node": ">=18 <19"
-	}
+  "name": "vitepress-api-document-theme",
+  "private": false,
+  "description": "",
+  "version": "0.0.2-rc.3",
+  "license": "MIT",
+  "author": "LogicSpark <info@logicspark.com>",
+  "homepage": "https://logicspark.com",
+  "url": "https://github.com/logicspark/vitepress-api-document-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/logicspark/vitepress-api-document-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/logicspark/vitepress-api-document-theme/issues"
+  },
+  "keywords": [
+    "vitepress-api-document-theme",
+    "page",
+    "vitepress divided page",
+    "vitepress"
+  ],
+  "type": "module",
+  "types": "./dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/vitepress-api-document-theme.umd.js",
+  "module": "./dist/vitepress-api-document-theme.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vitepress-api-document-theme.umd.js",
+      "require": "./dist/vitepress-api-document-theme.umd.js"
+    },
+    "./dist/index.css": "./dist/index.css"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && vue-tsc --emitDeclarationOnly && mv dist/components dist/types",
+    "preview": "vite preview",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.1",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/test-utils": "^2.4.0",
+    "jsdom": "^22.1.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.3",
+    "vitest": "^0.33.0",
+    "vue-tsc": "^1.8.3"
+  },
+  "engines": {
+    "node": ">=18 <19"
+  }
 }
