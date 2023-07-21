@@ -1,3 +1,1 @@
-import PageDivision from "./PageDivision.vue";
-
-export default PageDivision;
+export { default as PageDivision } from "./PageDivision.vue";
