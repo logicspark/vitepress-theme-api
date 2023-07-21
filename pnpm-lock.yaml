@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 dependencies:
   vitepress-api-document-theme:
-    specifier: 0.0.2-rc.10
-    version: 0.0.2-rc.10
+    specifier: 0.0.2-rc.11
+    version: 0.0.2-rc.11
   vue:
     specifier: ^3.3.4
     version: 3.3.4
@@ -1191,6 +1191,14 @@ packages:
     engines: {node: '>=18 <19'}
     dependencies:
       vitepress-api-document-theme: 0.0.2-rc.9
+      vue: 3.3.4
+    dev: false
+
+  /vitepress-api-document-theme@0.0.2-rc.11:
+    resolution: {integrity: sha512-xaF4LqUhV+GjRi5z12/6FGMKFNAESMltQPU70R8TNTHI/CFNKhIJ5QrldqZ/YK9KNAn6422+T99wO9TsHDCNxQ==}
+    engines: {node: '>=18 <19'}
+    dependencies:
+      vitepress-api-document-theme: 0.0.2-rc.10
       vue: 3.3.4
     dev: false
 

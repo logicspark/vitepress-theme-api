@@ -1,10 +1,6 @@
 <script setup lang="ts">
-const props = defineProps({
-  top: {
-    required: false,
-    type: Number,
-  },
-});
+import { PageDivisionProps } from ".";
+const props = defineProps<PageDivisionProps>();
 </script>
 
 <template>
@@ -27,14 +23,12 @@ const props = defineProps({
   gap: 20px;
   position: relative;
 }
-
 .right,
 .left {
   flex: 1;
   padding: 1rem;
   min-width: 300px;
 }
-
 .right {
   align-self: flex-start;
   position: sticky;
