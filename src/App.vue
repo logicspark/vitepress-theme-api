@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { PageDivision } from "./components";
+import { PageDivide } from "./components";
 </script>
 
 <template>
-  <PageDivision :top="63">
+  <PageDivide :top="63">
     <template #left
       >test dividetest dividetest dividetest dividetest dividetest dividetest
       dividetest dividetest dividetest dividetest dividetest dividetest
@@ -13,5 +13,5 @@ import { PageDivision } from "./components";
       dividetest divide</template
     >
     <template #right>test divide</template>
-  </PageDivision>
+  </PageDivide>
 </template>
