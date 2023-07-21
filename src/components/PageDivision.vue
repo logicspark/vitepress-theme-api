@@ -1,5 +1,5 @@
 <script setup lang="ts">
-interface PageDivisionProps {
+export interface PageDivisionProps {
   top?: number;
 }
 
