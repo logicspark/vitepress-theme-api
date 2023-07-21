@@ -1,9 +1,10 @@
 <script setup lang="ts">
-export interface PageDivisionProps {
-  top?: number;
-}
-
-const props = defineProps<PageDivisionProps>();
+const props = defineProps({
+  top: {
+    required: false,
+    type: Number,
+  },
+});
 </script>
 
 <template>
