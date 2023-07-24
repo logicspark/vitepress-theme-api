@@ -21,9 +21,7 @@
 
 ## :sunglasses: Screenshots
 
-Demo
-
-https://github.com/logicspark/libraries-docs/assets/135820109/e5db1728-383b-4a25-81e3-963bf7edfb3e
+https://github.com/logicspark/vitepress-api-document-theme/assets/135820109/9a68a559-c2e3-41f6-8655-54b30aaddcc9
 
 Here is the link to the live [demo](). Have fun exploring!
 
