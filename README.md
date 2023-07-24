@@ -170,12 +170,12 @@ Distributed under the MIT License. See [`LICENSE`](https://github.com/logicspark
 
 Vitepress is licenses under MIT License. Click [here](https://github.com/vuejs/vitepress/blob/main/LICENSE) for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)
-
 ## :pray: Acknowledgement
 
 - [Vitepress](https://vitepress.dev/)
 - [Img Shields](https://shields.io)
+
+<p align="right">(<a href="#readme-top">back to top</a>)
 
 [Vitepress-url]: https://vitepress.dev/
 [TypeScript]: https://img.shields.io/badge/typescript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
@@ -189,5 +189,3 @@ Vitepress is licenses under MIT License. Click [here](https://github.com/vuejs/v
 [Vite]: https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white
 [vite-url]: https://vitejs.dev/
 [package-url]: https://www.npmjs.com/package/awesome-social-button
-
-<p align="right">(<a href="#readme-top">back to top</a>)
