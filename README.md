@@ -72,10 +72,10 @@ You will need to import component tags and css. Without the css import, the API 
 
 ### Import Component from Theme
 
-You will need to import `PageDivide` component to divide the main content into left and right so that API document theme can be rendered.
+You will need to import `DividePage` component to divide the main content into left and right so that API document theme can be rendered.
 
 ```js
-<script setup>import {PageDivide} from 'vitepress-api-document-theme'</script>
+<script setup>import {DividePage} from 'vitepress-api-document-theme'</script>
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)
@@ -138,7 +138,7 @@ There are two tags, namely:
 - `<template #right>` - For the right side of the main content, you can add sample codes like api request and response.
 
 ```js
-<PageDivide>
+<DividePage>
 
 <template #left>
 
@@ -151,7 +151,7 @@ There are two tags, namely:
  // Add content here. Both html and markdown are supported.
 
 </template>
-</PageDivide>
+</DividePage>
 ```
 
 _Note_: When writing markdown, please leave a line so that it displays a markdown instead of text like the example above.
