@@ -102,7 +102,7 @@ _Note_: Do not add `scoped` in `<style>` because the css will not work.
 
 <div align="right">
 
-[See example](https://github.com/logicspark/vitepress-api-document-theme/blob/main/example/default-theme/index.md?plain=1)
+([See example](https://github.com/logicspark/vitepress-api-document-theme/blob/main/example/default-theme/index.md?plain=1))
 
 </div>
 
@@ -116,7 +116,7 @@ You must import style in the css file in the theme directory.
 
 <div align="right">
 
-[See example](https://github.com/logicspark/vitepress-api-document-theme/blob/main/example/default-theme-and-custom/.vitepress/theme/style.css)
+([See example](https://github.com/logicspark/vitepress-api-document-theme/blob/main/example/default-theme-and-custom/.vitepress/theme/style.css))
 
 </div>
 
@@ -126,7 +126,7 @@ Please follow Option 2's instruction
 
 <div align="right">
 
-[See example](https://github.com/logicspark/vitepress-api-document-theme/blob/main/example/custom-theme/.vitepress/theme/style.css)
+([See example](https://github.com/logicspark/vitepress-api-document-theme/blob/main/example/custom-theme/.vitepress/theme/style.css))
 
 </div>
 
@@ -174,8 +174,6 @@ Vitepress is licenses under MIT License. Click [here](https://github.com/vuejs/v
 
 - [Vitepress](https://vitepress.dev/)
 - [Img Shields](https://shields.io)
-
-<p align="right">(<a href="#readme-top">back to top</a>)
 
 [Vitepress-url]: https://vitepress.dev/
 [TypeScript]: https://img.shields.io/badge/typescript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
