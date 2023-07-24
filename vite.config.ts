@@ -15,7 +15,7 @@ export default defineConfig({
     target: "esnext",
     lib: {
       entry: resolve(__dirname, "./src/components/index.ts"),
-      name: "VitepressApiDocumentTheme",
+      name: "PalmTest",
       fileName: (format) => `vitepress-api-document-theme.${format}.js`,
     },
     // cssCodeSplit: true,
