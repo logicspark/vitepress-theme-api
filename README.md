@@ -21,9 +21,11 @@
 
 ## :sunglasses: Screenshots
 
-https://github.com/logicspark/vitepress-api-document-theme/assets/135820109/9a68a559-c2e3-41f6-8655-54b30aaddcc9
+DividePage Component Demo
 
-Here is the link to the live [demo](). Have fun exploring!
+https://github.com/logicspark/vitepress-api-document-theme/assets/135820109/28cb15be-2771-4683-a033-2efa704787ac
+
+Here is the link to the live [demo](https://github.com/logicspark/vitepress-api-document-theme/tree/main/example/default-theme-and-custom). Have fun exploring!
 
 ## :building_construction: Built With
 
