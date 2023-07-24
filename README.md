@@ -9,7 +9,7 @@
 </div>
 <br/>
 <div align="center">
-  <a href="#sunglasses-screenshots">Screenshots</a> - 
+  <a href="#sunglasses_video-demo">Video Demo</a> - 
   <a href="#building_construction-built-with">Built With</a> - 
   <a href="#rocket-getting-started">Getting Started</a> - 
   <a href="#fire-usage">Usage</a> -
@@ -19,7 +19,7 @@
 
 <br/>
 
-## :sunglasses: Screenshots
+## :sunglasses: Video Demo
 
 https://github.com/logicspark/vitepress-api-document-theme/assets/135820109/9a68a559-c2e3-41f6-8655-54b30aaddcc9
 
@@ -79,8 +79,6 @@ You will need to import `DividePage` component to divide the main content into l
 ```js
 <script setup>import {DividePage} from 'vitepress-api-document-theme'</script>
 ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)
 
 ### Import CSS from Theme
 
@@ -158,8 +156,6 @@ There are two tags, namely:
 
 _Note_: When writing markdown, please leave a line so that it displays a markdown instead of text like the example above.
 
-<p align="right">(<a href="#readme-top">back to top</a>)
-
 ### Component Attribute
 
 | Prop      | Type     | Required | Description                                                 |
@@ -167,8 +163,6 @@ _Note_: When writing markdown, please leave a line so that it displays a markdow
 | **`top`** | `number` | Optional | Set vertical position of `<template #right>` Default is `0` |
 
 For the full sample .md file in accordance to the live demo, please see our [example](https://github.com/logicspark/vitepress-api-document-theme/tree/main/example/default-theme-and-custom) directory.
-
-<p align="right">(<a href="#readme-top">back to top</a>)
 
 ## :books: License
 
