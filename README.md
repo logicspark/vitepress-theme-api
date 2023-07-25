@@ -23,7 +23,7 @@
 
 DividePage Component Demo
 
-https://github.com/logicspark/vitepress-api-document-theme/assets/135820109/28cb15be-2771-4683-a033-2efa704787ac
+https://github.com/logicspark/vitepress-api-document-theme/assets/135820109/57ec8e74-e9e1-406b-aeb2-d05475f7ea0e
 
 Here is the link to the live [demo](https://docs.logicspark.com). Have fun exploring!
 
