@@ -79,7 +79,9 @@ You will need to import component tags and css. Without the css import, the API 
 You will need to import `DividePage` component to divide the main content into left and right so that API document theme can be rendered.
 
 ```js
-<script setup>import {DividePage} from 'vitepress-api-document-theme'</script>
+<script setup>
+  import { DividePage } from 'vitepress-api-document-theme';
+</script>
 ```
 
 ### Import CSS from Theme
@@ -96,7 +98,7 @@ You can import the file within `<style>` of each .md file that you plan to use t
 
 ```js
 <style>
-  @import './node_module/vitepress-api-document-theme/dist/style.css'
+  @import './node_module/vitepress-api-document-theme/dist/style.css';
 </style>
 ```
 
