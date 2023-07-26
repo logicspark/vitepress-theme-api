@@ -23,7 +23,7 @@
 
 DividePage Component Demo
 
-https://github.com/logicspark/vitepress-api-document-theme/assets/135820109/57ec8e74-e9e1-406b-aeb2-d05475f7ea0e
+https://github.com/logicspark/vitepress-api-document-theme/assets/135820109/643060a0-94d9-43a6-91f0-bcea95f74bff
 
 Here is the link to the live [demo](https://docs.logicspark.com). Have fun exploring!
 
@@ -79,9 +79,7 @@ You will need to import component tags and css. Without the css import, the API 
 You will need to import `DividePage` component to divide the main content into left and right so that API document theme can be rendered.
 
 ```js
-<script setup>
-  import { DividePage } from 'vitepress-api-document-theme';
-</script>
+<script setup>import {DividePage} from 'vitepress-api-document-theme';</script>
 ```
 
 ### Import CSS from Theme
