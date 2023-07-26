@@ -99,7 +99,7 @@ You can import the file within `<style>` of each .md file that you plan to use t
 
 ```js
 <style>
-	@import './node_module/vitepress-api-document-theme/dist/style.css';
+  @import './node_modules/vitepress-api-document-theme/dist/style.css';
 </style>
 ```
 
@@ -116,7 +116,7 @@ _Note_: Do not add `scoped` in `<style>` because the css will not work.
 You must import style in the css file in the theme directory.
 
 ```css
-@import "../../node_module/vitepress-api-document-theme/theme/style.css";
+@import "../../node_modules/vitepress-api-document-theme/theme/style.css";
 ```
 
 <div align="right">
