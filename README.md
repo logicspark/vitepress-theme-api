@@ -3,6 +3,9 @@
 <div align="center">
   <h1>Vitepress API Document Theme</h1>
 
+Developed by [Logic Spark](https://logicspark.com) team
+
+[![npm](https://img.shields.io/npm/v/vitepress-api-document-theme)][package-url]
 [![VueJS](https://img.shields.io/badge/VueJS-3.0.x-%2341B883)][vue-url]
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/logicspark/awesome-social-button/blob/main/LICENSE)
 
@@ -96,7 +99,7 @@ You can import the file within `<style>` of each .md file that you plan to use t
 
 ```js
 <style>
-  @import './node_module/vitepress-api-document-theme/dist/style.css';
+	@import './node_module/vitepress-api-document-theme/dist/style.css';
 </style>
 ```
 
@@ -188,4 +191,4 @@ Vitepress is licenses under MIT License. Click [here](https://github.com/vuejs/v
 [Vue-url]: https://vuejs.org/
 [Vite]: https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white
 [vite-url]: https://vitejs.dev/
-[package-url]: https://www.npmjs.com/package/awesome-social-button
+[package-url]: https://www.npmjs.com/package/vitepress-api-document-theme
