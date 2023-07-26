@@ -53,7 +53,7 @@ _Support Node.js 18.12.0 (LTS) and above_
 
 ### Installation
 
-There are a few ways you can install Vitepress API Document theme, namely npm, yarn and pnpm. If you install via npm, here is a a single cmd to install this library
+There are a few ways you can install Vitepress API Document theme, namely npm, yarn and pnpm. If you install via npm, here is a single cmd to install this library
 
 ```sh
   npm install vitepress-api-document-theme
@@ -75,11 +75,11 @@ There are a few ways you can install Vitepress API Document theme, namely npm, y
 
 ## :fire: Usage
 
-You will need to import component tags and css. Without the css import, the API Document theme will not display correctly.
+You will need to import component tags and CSS. Without the CSS import, the API Document theme will not display correctly.
 
 ### Import Component from Theme
 
-You will need to import `DividePage` component to divide the main content into left and right so that API document theme can be rendered.
+You will need to import `DividePage` component to divide the main content into left and right so that the API document theme can be rendered.
 
 ```js
 <script setup>import {DividePage} from 'vitepress-api-document-theme';</script>
@@ -113,7 +113,7 @@ _Note_: Do not add `scoped` in `<style>` because the css will not work.
 
 #### Option2: Default Theme + Customization
 
-You must import style in the css file in the theme directory.
+You must import the style in the CSS file from the theme directory.
 
 ```css
 @import "../../node_modules/vitepress-api-document-theme/theme/style.css";
@@ -139,8 +139,8 @@ Please follow Option 2's instruction
 
 There are two tags, namely:
 
-- `<template #left>` - For the left side of the main content, you can write api descriptions like query parameters or return properties.
-- `<template #right>` - For the right side of the main content, you can add sample codes like api request and response.
+- `<template #left>` - For the left side of the main content, you can write API descriptions like query parameters or return properties.
+- `<template #right>` - For the right side of the main content, you can add sample codes like API request and response.
 
 ```js
 <DividePage>
@@ -167,13 +167,13 @@ _Note_: When writing markdown, please leave a line so that it displays a markdow
 | --------- | -------- | -------- | ----------------------------------------------------------- |
 | **`top`** | `number` | Optional | Set vertical position of `<template #right>` Default is `0` |
 
-For the full sample .md file in accordance to the live demo, please see our [example](https://github.com/logicspark/vitepress-api-document-theme/tree/main/example/default-theme-and-custom) directory.
+For the full sample .md file in accordance with the live demo, please see our [example](https://github.com/logicspark/vitepress-api-document-theme/tree/main/example/default-theme-and-custom) directory.
 
 ## :books: License
 
 Distributed under the MIT License. See [`LICENSE`](https://github.com/logicspark/vitepress-api-document-theme/blob/main/LICENSE) for more information.
 
-Vitepress is licenses under MIT License. Click [here](https://github.com/vuejs/vitepress/blob/main/LICENSE) for more information.
+Vitepress is licensed under MIT License. Click [here](https://github.com/vuejs/vitepress/blob/main/LICENSE) for more information.
 
 ## :pray: Acknowledgement
 
