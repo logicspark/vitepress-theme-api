@@ -1,7 +1,7 @@
 {
   "name": "vitepress-api-document-theme",
   "private": false,
-  "description": "",
+  "description": "Theme for vitepress document",
   "version": "0.1.0",
   "license": "MIT",
   "author": "LogicSpark <info@logicspark.com>",
