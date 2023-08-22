@@ -1,11 +1,11 @@
 <a id="readme-top"></a>
 
 <div align="center">
-  <h1>Vitepress API Document Theme</h1>
+  <h1>Vitepress Theme API</h1>
 
 Developed by [Logic Spark](https://logicspark.com) team
 
-[![npm](https://img.shields.io/npm/v/vitepress-api-document-theme)][package-url]
+[![npm](https://img.shields.io/npm/v/vitepress-theme-api)][package-url]
 [![VueJS](https://img.shields.io/badge/VueJS-3.0.x-%2341B883)][vue-url]
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/logicspark/awesome-social-button/blob/main/LICENSE)
 
@@ -40,7 +40,7 @@ Here is the link to the live [demo](https://docs.logicspark.com). Have fun explo
 
 ## :rocket: Getting Started
 
-Learn what is required before using Vitepress API Document theme and how to install it quickly. Let's get started!
+Learn what is required before using Vitepress theme api and how to install it quickly. Let's get started!
 
 ### Prerequisite
 
@@ -53,10 +53,10 @@ _Support Node.js 18.12.0 (LTS) and above_
 
 ### Installation
 
-There are a few ways you can install Vitepress API Document theme, namely npm, yarn and pnpm. If you install via npm, here is a single cmd to install this library
+There are a few ways you can install Vitepress theme api , namely npm, yarn and pnpm. If you install via npm, here is a single cmd to install this library
 
 ```sh
-  npm install vitepress-api-document-theme
+  npm install vitepress-theme-api
 ```
 
 #### Other options
@@ -64,13 +64,13 @@ There are a few ways you can install Vitepress API Document theme, namely npm, y
 - yarn
 
 ```sh
-  yarn add vitepress-api-document-theme
+  yarn add vitepress-theme-api
 ```
 
 - pnpm
 
 ```sh
-  pnpm add vitepress-api-document-theme
+  pnpm add vitepress-theme-api
 ```
 
 ## :fire: Usage
@@ -82,7 +82,7 @@ You will need to import component tags and CSS. Without the CSS import, the API 
 You will need to import `DividePage` component to divide the main content into left and right so that the API document theme can be rendered.
 
 ```js
-<script setup>import {DividePage} from 'vitepress-api-document-theme';</script>
+<script setup>import {DividePage} from 'vitepress-theme-api';</script>
 ```
 
 ### Import CSS from Theme
@@ -98,9 +98,7 @@ Per Vitepress's [Setup Wizard](https://vitepress.dev/guide/getting-started#setup
 You can import the file within `<style>` of each .md file that you plan to use the imported component.
 
 ```js
-<style>
-  @import './node_modules/vitepress-api-document-theme/dist/style.css';
-</style>
+<style>@import './node_modules/vitepress-theme-api/dist/style.css';</style>
 ```
 
 _Note_: Do not add `scoped` in `<style>` because the css will not work.
@@ -116,7 +114,7 @@ _Note_: Do not add `scoped` in `<style>` because the css will not work.
 You must import the style in the CSS file from the theme directory.
 
 ```css
-@import "../../node_modules/vitepress-api-document-theme/theme/style.css";
+@import "../../node_modules/vitepress-theme-api/theme/style.css";
 ```
 
 <div align="right">

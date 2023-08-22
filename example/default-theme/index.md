@@ -1,9 +1,9 @@
 <script setup>
-  import {PageDivision} from 'vitepress-api-document-theme'
+  import {PageDivision} from 'vitepress-theme-api'
 </script>
 
 <style >
-@import './node_modules/vitepress-api-document-theme/dist/style.css'
+@import './node_modules/vitepress-theme-api/dist/style.css'
 </style>
 
 <PageDivision>

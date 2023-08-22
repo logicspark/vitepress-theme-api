@@ -4,7 +4,7 @@ aside: false
 ---
 
 <script setup>
-  import {PageDivision} from 'vitepress-api-document-theme';
+  import {PageDivision} from 'vitepress-theme-api';
 </script>
 
 <PageDivision :top="63">
