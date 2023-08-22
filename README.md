@@ -105,7 +105,7 @@ _Note_: Do not add `scoped` in `<style>` because the css will not work.
 
 <div align="right">
 
-([See example](https://github.com/logicspark/vitepress-api-document-theme/blob/main/example/default-theme/index.md?plain=1))
+([See example](https://github.com/logicspark/vitepress-theme-api/blob/main/example/default-theme/index.md?plain=1))
 
 </div>
 
@@ -119,7 +119,7 @@ You must import the style in the CSS file from the theme directory.
 
 <div align="right">
 
-([See example](https://github.com/logicspark/vitepress-api-document-theme/blob/main/example/default-theme-and-custom/.vitepress/theme/style.css))
+([See example](https://github.com/logicspark/vitpress-theme-api/blob/main/example/default-theme-and-custom/.vitepress/theme/style.css))
 
 </div>
 
@@ -129,7 +129,7 @@ Please follow Option 2's instruction
 
 <div align="right">
 
-([See example](https://github.com/logicspark/vitepress-api-document-theme/blob/main/example/custom-theme/.vitepress/theme/style.css))
+([See example](https://github.com/logicspark/vitpress-theme-api/blob/main/example/custom-theme/.vitepress/theme/style.css))
 
 </div>
 
@@ -165,11 +165,11 @@ _Note_: When writing markdown, please leave a line so that it displays a markdow
 | --------- | -------- | -------- | ----------------------------------------------------------- |
 | **`top`** | `number` | Optional | Set vertical position of `<template #right>` Default is `0` |
 
-For the full sample .md file in accordance with the live demo, please see our [example](https://github.com/logicspark/vitepress-api-document-theme/tree/main/example/default-theme-and-custom) directory.
+For the full sample .md file in accordance with the live demo, please see our [example](https://github.com/logicspark/vitpress-theme-api/tree/main/example/default-theme-and-custom) directory.
 
 ## :books: License
 
-Distributed under the MIT License. See [`LICENSE`](https://github.com/logicspark/vitepress-api-document-theme/blob/main/LICENSE) for more information.
+Distributed under the MIT License. See [`LICENSE`](https://github.com/logicspark/vitpress-theme-api/blob/main/LICENSE) for more information.
 
 Vitepress is licensed under MIT License. Click [here](https://github.com/vuejs/vitepress/blob/main/LICENSE) for more information.
 
@@ -189,4 +189,4 @@ Vitepress is licensed under MIT License. Click [here](https://github.com/vuejs/v
 [Vue-url]: https://vuejs.org/
 [Vite]: https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white
 [vite-url]: https://vitejs.dev/
-[package-url]: https://www.npmjs.com/package/vitepress-api-document-theme
+[package-url]: https://www.npmjs.com/package/vitepress-theme-api
