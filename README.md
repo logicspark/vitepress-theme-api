@@ -40,7 +40,7 @@ Here is the link to the live [demo](https://docs.logicspark.com). Have fun explo
 
 ## :rocket: Getting Started
 
-Learn what is required before using Vitepress theme api and how to install it quickly. Let's get started!
+Learn what is required before using Vitepress API Document theme and how to install it quickly. Let's get started!
 
 ### Prerequisite
 
@@ -53,7 +53,7 @@ _Support Node.js 18.12.0 (LTS) and above_
 
 ### Installation
 
-There are a few ways you can install Vitepress theme api , namely npm, yarn and pnpm. If you install via npm, here is a single cmd to install this library
+There are a few ways you can install Vitepress API Document theme, namely npm, yarn and pnpm. If you install via npm, here is a single cmd to install this library
 
 ```sh
   npm install vitepress-theme-api
