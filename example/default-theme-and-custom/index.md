@@ -1,13 +1,16 @@
 ---
+layout: doc
 aside: false
 ---
 
 <script setup>
-  import {PageDivision} from 'vitepress-api-document-theme'
+  import {PageDivision} from 'vitepress-api-document-theme';
 </script>
 
 <PageDivision :top="63">
 <template #left>
+
+## Results
 
 This page demonstrates usage of some of the runtime APIs provided by VitePress.
 
@@ -40,3 +43,5 @@ const { theme, page, frontmatter } = useData()
 
 </template>
 </PageDivision>
+
+## More

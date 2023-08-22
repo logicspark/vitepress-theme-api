@@ -5,6 +5,7 @@
     "docs:preview": "vitepress preview"
   },
   "devDependencies": {
-    "vitepress-api-document-theme": "^0.0.1-rc.14"
+    "vitepress-api-document-theme": "^0.0.1-rc.14",
+    "vitepress": "^1.0.0-beta.5"
   }
 }
