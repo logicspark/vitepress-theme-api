@@ -16,7 +16,7 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, "./src/components/index.ts"),
       name: "PalmTest",
-      fileName: (format) => `vitepress-api-document-theme.${format}.js`,
+      fileName: (format) => `vitepress-theme-api.${format}.js`,
     },
     // cssCodeSplit: true,
     rollupOptions: {

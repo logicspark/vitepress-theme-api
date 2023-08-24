@@ -1,18 +1,18 @@
 {
-  "name": "vitepress-api-document-theme",
+  "name": "vitepress-theme-api",
   "private": false,
   "description": "Theme for vitepress document",
   "version": "0.1.0",
   "license": "MIT",
   "author": "LogicSpark <info@logicspark.com>",
   "homepage": "https://logicspark.com",
-  "url": "https://github.com/logicspark/vitepress-api-document-theme",
+  "url": "https://github.com/logicspark/vitepress-theme-api",
   "repository": {
     "type": "git",
-    "url": "https://github.com/logicspark/vitepress-api-document-theme.git"
+    "url": "https://github.com/logicspark/vitepress-theme-api.git"
   },
   "bugs": {
-    "url": "https://github.com/logicspark/vitepress-api-document-theme/issues"
+    "url": "https://github.com/logicspark/vitepress-theme-api/issues"
   },
   "keywords": [
     "header",
@@ -25,12 +25,12 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/vitepress-api-document-theme.umd.js",
-  "module": "./dist/vitepress-api-document-theme.es.js",
+  "main": "./dist/vitepress-theme-api.umd.js",
+  "module": "./dist/vitepress-theme-api.es.js",
   "exports": {
     ".": {
-      "import": "./dist/vitepress-api-document-theme.es.js",
-      "require": "./dist/vitepress-api-document-theme.umd.js"
+      "import": "./dist/vitepress-theme-api.es.js",
+      "require": "./dist/vitepress-theme-api.umd.js"
     },
     "./dist/index.css": "./dist/index.css"
   },
@@ -42,6 +42,7 @@
     "coverage": "vitest run --coverage"
   },
   "dependencies": {
+    "gray-matter": "^4.0.3",
     "vite-plugin-css-injected-by-js": "^3.1.0",
     "vue": "^3.2.47"
   },

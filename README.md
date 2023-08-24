@@ -1,11 +1,11 @@
 <a id="readme-top"></a>
 
 <div align="center">
-  <h1>Vitepress API Document Theme</h1>
+  <h1>Vitepress Theme API</h1>
 
 Developed by [Logic Spark](https://logicspark.com) team
 
-[![npm](https://img.shields.io/npm/v/vitepress-api-document-theme)][package-url]
+[![npm](https://img.shields.io/npm/v/vitepress-theme-api)][package-url]
 [![VueJS](https://img.shields.io/badge/VueJS-3.0.x-%2341B883)][vue-url]
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/logicspark/awesome-social-button/blob/main/LICENSE)
 
@@ -56,7 +56,7 @@ _Support Node.js 18.12.0 (LTS) and above_
 There are a few ways you can install Vitepress API Document theme, namely npm, yarn and pnpm. If you install via npm, here is a single cmd to install this library
 
 ```sh
-  npm install vitepress-api-document-theme
+  npm install vitepress-theme-api
 ```
 
 #### Other options
@@ -64,13 +64,13 @@ There are a few ways you can install Vitepress API Document theme, namely npm, y
 - yarn
 
 ```sh
-  yarn add vitepress-api-document-theme
+  yarn add vitepress-theme-api
 ```
 
 - pnpm
 
 ```sh
-  pnpm add vitepress-api-document-theme
+  pnpm add vitepress-theme-api
 ```
 
 ## :fire: Usage
@@ -82,7 +82,7 @@ You will need to import component tags and CSS. Without the CSS import, the API 
 You will need to import `DividePage` component to divide the main content into left and right so that the API document theme can be rendered.
 
 ```js
-<script setup>import {DividePage} from 'vitepress-api-document-theme';</script>
+<script setup>import {DividePage} from 'vitepress-theme-api';</script>
 ```
 
 ### Import CSS from Theme
@@ -98,16 +98,14 @@ Per Vitepress's [Setup Wizard](https://vitepress.dev/guide/getting-started#setup
 You can import the file within `<style>` of each .md file that you plan to use the imported component.
 
 ```js
-<style>
-  @import './node_modules/vitepress-api-document-theme/dist/style.css';
-</style>
+<style>@import './node_modules/vitepress-theme-api/dist/style.css';</style>
 ```
 
 _Note_: Do not add `scoped` in `<style>` because the css will not work.
 
 <div align="right">
 
-([See example](https://github.com/logicspark/vitepress-api-document-theme/blob/main/example/default-theme/index.md?plain=1))
+([See example](https://github.com/logicspark/vitepress-theme-api/blob/main/example/default-theme/index.md?plain=1))
 
 </div>
 
@@ -116,12 +114,12 @@ _Note_: Do not add `scoped` in `<style>` because the css will not work.
 You must import the style in the CSS file from the theme directory.
 
 ```css
-@import "../../node_modules/vitepress-api-document-theme/theme/style.css";
+@import "../../node_modules/vitepress-theme-api/theme/style.css";
 ```
 
 <div align="right">
 
-([See example](https://github.com/logicspark/vitepress-api-document-theme/blob/main/example/default-theme-and-custom/.vitepress/theme/style.css))
+([See example](https://github.com/logicspark/vitpress-theme-api/blob/main/example/default-theme-and-custom/.vitepress/theme/style.css))
 
 </div>
 
@@ -131,7 +129,7 @@ Please follow Option 2's instruction
 
 <div align="right">
 
-([See example](https://github.com/logicspark/vitepress-api-document-theme/blob/main/example/custom-theme/.vitepress/theme/style.css))
+([See example](https://github.com/logicspark/vitpress-theme-api/blob/main/example/custom-theme/.vitepress/theme/style.css))
 
 </div>
 
@@ -167,11 +165,11 @@ _Note_: When writing markdown, please leave a line so that it displays a markdow
 | --------- | -------- | -------- | ----------------------------------------------------------- |
 | **`top`** | `number` | Optional | Set vertical position of `<template #right>` Default is `0` |
 
-For the full sample .md file in accordance with the live demo, please see our [example](https://github.com/logicspark/vitepress-api-document-theme/tree/main/example/default-theme-and-custom) directory.
+For the full sample .md file in accordance with the live demo, please see our [example](https://github.com/logicspark/vitpress-theme-api/tree/main/example/default-theme-and-custom) directory.
 
 ## :books: License
 
-Distributed under the MIT License. See [`LICENSE`](https://github.com/logicspark/vitepress-api-document-theme/blob/main/LICENSE) for more information.
+Distributed under the MIT License. See [`LICENSE`](https://github.com/logicspark/vitpress-theme-api/blob/main/LICENSE) for more information.
 
 Vitepress is licensed under MIT License. Click [here](https://github.com/vuejs/vitepress/blob/main/LICENSE) for more information.
 
@@ -191,4 +189,4 @@ Vitepress is licensed under MIT License. Click [here](https://github.com/vuejs/v
 [Vue-url]: https://vuejs.org/
 [Vite]: https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white
 [vite-url]: https://vitejs.dev/
-[package-url]: https://www.npmjs.com/package/vitepress-api-document-theme
+[package-url]: https://www.npmjs.com/package/vitepress-theme-api
