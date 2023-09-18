@@ -21,7 +21,6 @@ const props = defineProps<PageDivisionProps>();
   height: 100%;
   flex-wrap: wrap;
   gap: 20px;
-  position: relative;
 }
 .right,
 .left {
