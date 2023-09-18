@@ -5,7 +5,7 @@ import {
   normalizeStyle,
   openBlock,
   renderSlot
-} from "./chunk-B4FRGKU2.js";
+} from "./chunk-UWRLCAF5.js";
 
 // node_modules/.pnpm/vitepress-theme-api@0.1.3-0_vite@4.4.9/node_modules/vitepress-theme-api/dist/vitepress-theme-api.es.js
 var a = { class: "container-content" };
