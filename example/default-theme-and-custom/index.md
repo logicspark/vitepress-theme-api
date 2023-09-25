@@ -112,16 +112,5 @@ const { theme, page, frontmatter } = useData()
 1. First Item
    1. First Item
       1. First Item
-   1. First Item
-      1. First Item
-      1. First Item
-   1. First Item
-1. First Item
-1. First Item
-1. First Item
-1. First Item
-1. First Item
-1. First Item
-1. First Item
 
 {.order-list-I}
