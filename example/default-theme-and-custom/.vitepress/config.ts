@@ -1,5 +1,7 @@
+import { defineConfig } from "vitepress";
+
 // https://vitepress.dev/reference/site-config
-export default {
+export default defineConfig({
   title: "My Awesome Project",
   description: "A VitePress Site",
   themeConfig: {
@@ -16,4 +18,4 @@ export default {
       { icon: "github", link: "https://github.com/vuejs/vitepress" },
     ],
   },
-};
+});
