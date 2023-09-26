@@ -13,24 +13,3 @@ const props = defineProps<PageDivisionProps>();
     </div>
   </div>
 </template>
-
-<style scoped>
-.container-content {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-.right,
-.left {
-  flex: 1;
-  padding: 1rem;
-  min-width: 300px;
-}
-.right {
-  align-self: flex-start;
-  position: sticky;
-  height: max-content;
-}
-</style>

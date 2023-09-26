@@ -30,6 +30,8 @@ https://github.com/logicspark/vitepress-api-document-theme/assets/135820109/6430
 
 Here is the link to the live [demo](https://docs.logicspark.com). Have fun exploring!
 
+Ordered Number List Demo
+
 ## :building_construction: Built With
 
 1. [![Typescript][typescript]][typescript-url]
@@ -164,6 +166,24 @@ _Note_: When writing markdown, please leave a line so that it displays a markdow
 | Prop      | Type     | Required | Description                                                 |
 | --------- | -------- | -------- | ----------------------------------------------------------- |
 | **`top`** | `number` | Optional | Set vertical position of `<template #right>` Default is `0` |
+
+## Implementation of Styled Ordered Number List
+
+If you would like to style ordered number list to make your document easier to read, here is a code example:
+
+Class name is order-list-I.
+
+```md
+1. First Item
+
+   1. First Item
+
+      1. First Item
+
+{.order-list-I} // if you omit this, it will display default md style
+```
+
+_Note_: If you want to adjust this class, you can can change it in <a href="#import-css-from-theme">Import css from theme</a>.
 
 For the full sample .md file in accordance with the live demo, please see our [example](https://github.com/logicspark/vitpress-theme-api/tree/main/example/default-theme-and-custom) directory.
 

@@ -1,3 +1,5 @@
+import "./index.css";
+
 export interface PageDivisionProps {
   top?: number;
 }
