@@ -185,7 +185,7 @@ Class name is order-list-I.
 
 _Note_: If you want to adjust this class, you can can change it in <a href="#import-css-from-theme">Import css from theme</a>.
 
-For the full sample .md file in accordance with the live demo, please see our [example](https://github.com/logicspark/vitpress-theme-api/tree/main/example/default-theme-and-custom) directory.
+For the full sample .md file in accordance with the live demo, please see our [example](https://github.com/logicspark/vitepress-theme-api/tree/5ee7b34023cb3db41c17f01ce5fb644b7b7c82d5/example/default-theme-and-custom) directory.
 
 ## :books: License
 
