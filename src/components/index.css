@@ -1,3 +1,13 @@
+:root {
+  --vt-c-green: #42b883;
+  --vt-c-green-light: #42d392;
+  --vt-c-green-dark: #33a06f;
+  --vt-c-yellow: #ffc517;
+  --vt-c-yellow-light: #ffe417;
+  --vt-c-yellow-dark: #e0ad15;
+  --vt-c-red: #b8272c;
+}
+
 .container-content {
   display: flex;
   width: 100%;
@@ -91,4 +101,67 @@ ol.order-list-I ol li::before {
   font-size: 12px;
   text-align: center;
   margin-right: 8px;
+}
+
+div[icon-type] > .custom-block-title {
+  display: flex;
+  align-items: center;
+}
+
+div[icon-type*="tip"] > .custom-block-title::before {
+  content: "i";
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+div[icon-type*="info"] > .custom-block-title::before {
+  content: "ⓘ";
+  margin-right: 5px;
+  font-size: 20px;
+  color: inherit;
+}
+
+div[icon-type*="warning"] > .custom-block-title::before {
+  content: "⚠";
+  margin-right: 5px;
+  font-size: 20px;
+  color: inherit;
+}
+
+div[icon-type*="video"] > .custom-block-title::before {
+  content: "⏵";
+  font-size: 20px;
+  color: inherit;
+  margin-right: 5px;
+}
+
+div[icon-type*="danger"] > .custom-block-title::before {
+  content: "!";
+  font-size: 20px;
+  color: inherit;
+  margin-right: 5px;
+}
+
+.info.custom-block[icon-type*="bordered"] {
+  border: 1px solid var(--vt-c-green);
+}
+
+.info.custom-block[icon-type*="bordered"] > .custom-block-title::before {
+  color: var(--vt-c-green);
+}
+
+.warning.custom-block[icon-type*="bordered"] {
+  border: 1px solid var(--vt-c-yellow);
+}
+
+.warning.custom-block[icon-type*="bordered"] > .custom-block-title::before {
+  color: var(--vt-c-yellow);
+}
+
+.danger.custom-block[icon-type*="bordered"] {
+  border: 1px solid var(--vt-c-red);
+}
+
+.danger.custom-block[icon-type*="bordered"] > .custom-block-title::before {
+  color: var(--vt-c-red);
 }
