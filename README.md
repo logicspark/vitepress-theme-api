@@ -194,7 +194,7 @@ Add an attribute to customize the container’s color, icon and border
 test
 :::
 
-::: warning {icon-type=warning-bordered} //add color, icon and border
+::: warning {icon-type=warning-bordered} //add an icon, color and border
 test
 :::
 ```
