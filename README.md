@@ -190,7 +190,7 @@ If you would like to style custom containers so that users can review your docum
 Add an attribute to customize the container’s color, icon and border
 
 ```md
-::: warning {icon-type=warning} //add only icon
+::: warning {icon-type=warning} //add an icon
 test
 :::
 
