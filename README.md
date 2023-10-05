@@ -189,6 +189,7 @@ We provide a selection of unicode representations for your to choose ( i , ⓘ ,
 
 Add an attribute to customize the container’s color, icon and border
 
+```md
 ::: warning {icon-type=warning} //add only icon
 test
 :::
@@ -196,6 +197,7 @@ test
 ::: warning {icon-type=warning-bordered} //add color, icon and border
 test
 :::
+```
 
 _Note_: If you want to adjust these class, you can can change it in <a href="#import-css-from-theme">Import css from theme</a>.
 
