@@ -181,11 +181,11 @@ Class name is order-list-I.
 {.order-list-I} // if you omit this, it will display default md style
 ```
 
-## Implementation of Styled Container Markdown
+## Implementation of Styled Container of Markdown Extension
 
-If you would like to style container markdown to make each container standout more so that users can review your document quickly and easily.
+If you would like to style custom containers so that users can review your document quickly and easily, here is the selection of unicode representations
 
-We provide a selection of unicode representations for your to choose ( i , ⓘ , ⚠ ,❕ and ▶ )
+>i , ⓘ , ⚠ ,❕ and ▶
 
 Add an attribute to customize the container’s color, icon and border
 
