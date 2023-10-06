@@ -30,8 +30,6 @@ https://github.com/logicspark/vitepress-api-document-theme/assets/135820109/6430
 
 Here is the link to the live [demo](https://docs.logicspark.com). Have fun exploring!
 
-Ordered Number List Demo
-
 ## :building_construction: Built With
 
 1. [![Typescript][typescript]][typescript-url]
@@ -183,7 +181,25 @@ Class name is order-list-I.
 {.order-list-I} // if you omit this, it will display default md style
 ```
 
-_Note_: If you want to adjust this class, you can can change it in <a href="#import-css-from-theme">Import css from theme</a>.
+## Implementation of Styled Container of Markdown Extension
+
+If you would like to style custom containers so that users can review your document quickly and easily, here is the selection of unicode representations
+
+>i , ⓘ , ⚠ ,❕ and ▶
+
+Add an attribute to customize the container’s color, icon and border
+
+```md
+::: warning {icon-type=warning} //add an icon
+test
+:::
+
+::: warning {icon-type=warning-bordered} //add an icon, color and border
+test
+:::
+```
+
+_Note_: If you want to adjust these class, you can can change it in <a href="#import-css-from-theme">Import css from theme</a>.
 
 For the full sample .md file in accordance with the live demo, please see our [example](https://github.com/logicspark/vitepress-theme-api/tree/5ee7b34023cb3db41c17f01ce5fb644b7b7c82d5/example/default-theme-and-custom) directory.
 

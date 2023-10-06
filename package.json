@@ -2,7 +2,7 @@
 	"name": "vitepress-theme-api",
 	"private": false,
 	"description": "Vitepress theme for API documentation",
-	"version": "0.1.4",
+	"version": "0.1.6",
 	"license": "MIT",
 	"author": "LogicSpark <info@logicspark.com>",
 	"homepage": "https://logicspark.com",

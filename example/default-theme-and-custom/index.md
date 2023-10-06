@@ -114,3 +114,39 @@ const { theme, page, frontmatter } = useData()
       1. First Item
 
 {.order-list-I}
+
+::: tip test {icon-type=tip}
+test
+:::
+
+::: info {icon-type=info}
+test
+:::
+
+::: info {icon-type=info-bordered}
+test
+:::
+
+::: warning {icon-type=warning}
+test
+:::
+
+::: warning {icon-type=warning-bordered}
+test
+:::
+
+::: danger {icon-type=danger}
+test
+:::
+
+::: danger {icon-type=danger-bordered}
+test
+:::
+
+::: info video content {icon-type=video}
+demo
+:::
+
+::: info video content {icon-type=video-bordered}
+demo
+:::
