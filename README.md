@@ -105,7 +105,7 @@ _Note_: Do not add `scoped` in `<style>` because the css will not work.
 
 <div align="right">
 
-([See example](https://github.com/logicspark/vitepress-theme-api/blob/main/example/default-theme/index.md?plain=1))
+([See example](https://github.com/logicspark/vitepress-theme-api/blob/2668ebdfe24d52294c8734e1b41dff93a1b73228/example/default-theme/index.md))
 
 </div>
 
@@ -119,7 +119,7 @@ You must import the style in the CSS file from the theme directory.
 
 <div align="right">
 
-([See example](https://github.com/logicspark/vitpress-theme-api/blob/main/example/default-theme-and-custom/.vitepress/theme/style.css))
+([See example](https://github.com/logicspark/vitepress-theme-api/blob/2668ebdfe24d52294c8734e1b41dff93a1b73228/example/default-theme-and-custom/.vitepress/theme/style.css))
 
 </div>
 
@@ -129,7 +129,7 @@ Please follow Option 2's instruction
 
 <div align="right">
 
-([See example](https://github.com/logicspark/vitpress-theme-api/blob/main/example/custom-theme/.vitepress/theme/style.css))
+([See example](https://github.com/logicspark/vitepress-theme-api/blob/2668ebdfe24d52294c8734e1b41dff93a1b73228/example/custom-theme/.vitepress/theme/style.css))
 
 </div>
 
@@ -185,7 +185,7 @@ Class name is order-list-I.
 
 If you would like to style custom containers so that users can review your document quickly and easily, here is the selection of unicode representations
 
->i , ⓘ , ⚠ ,❕ and ▶
+> i , ⓘ , ⚠ ,❕ and ▶
 
 Add an attribute to customize the container’s color, icon and border
 
