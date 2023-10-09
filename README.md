@@ -105,7 +105,7 @@ _Note_: Do not add `scoped` in `<style>` because the css will not work.
 
 <div align="right">
 
-([See example](https://github.com/logicspark/vitepress-theme-api/blob/2668ebdfe24d52294c8734e1b41dff93a1b73228/example/default-theme/index.md))
+([See example](example/default-theme/index.md))
 
 </div>
 
@@ -119,7 +119,7 @@ You must import the style in the CSS file from the theme directory.
 
 <div align="right">
 
-([See example](https://github.com/logicspark/vitepress-theme-api/blob/2668ebdfe24d52294c8734e1b41dff93a1b73228/example/default-theme-and-custom/.vitepress/theme/style.css))
+([See example](example/default-theme-and-custom/))
 
 </div>
 
@@ -129,7 +129,7 @@ Please follow Option 2's instruction
 
 <div align="right">
 
-([See example](https://github.com/logicspark/vitepress-theme-api/blob/2668ebdfe24d52294c8734e1b41dff93a1b73228/example/custom-theme/.vitepress/theme/style.css))
+([See example](example/custom-theme/))
 
 </div>
 
@@ -201,7 +201,7 @@ test
 
 _Note_: If you want to adjust these class, you can can change it in <a href="#import-css-from-theme">Import css from theme</a>.
 
-For the full sample .md file in accordance with the live demo, please see our [example](https://github.com/logicspark/vitepress-theme-api/tree/5ee7b34023cb3db41c17f01ce5fb644b7b7c82d5/example/default-theme-and-custom) directory.
+For the full sample .md file in accordance with the live demo, please see our [example](example/default-theme-and-custom/index.md) directory.
 
 ## :books: License
 
